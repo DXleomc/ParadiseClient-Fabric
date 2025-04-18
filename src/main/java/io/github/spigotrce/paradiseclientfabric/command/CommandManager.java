@@ -47,6 +47,7 @@ public class CommandManager implements Listener {
     public void init() {
         register(new CopyCommand(minecraftClient));
         register(new CrashBypassCommand(minecraftClient));
+        register(new FakeOpBypassCommand(minecraftClient));
         register(new ExploitCommand(minecraftClient));
         register(new ForceOPCommand(minecraftClient));
         register(new GriefCommand(minecraftClient));
